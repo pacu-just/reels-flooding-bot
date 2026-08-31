@@ -22,11 +22,11 @@ with sync_playwright() as p:
     print("bejelentkezes")
 
     print("Felhasznalonev beirasa...")
-    page.locator("input[name='email']").fill("szokelevi28@gmail.com")
+    page.locator("input[name='email']").fill("Youremailhere")
     time.sleep(1)
     
 
-    page.locator("input[name='pass']").fill("leviplease3")
+    page.locator("input[name='pass']").fill("yourpasswordhere")
     time.sleep(1)
     print("kitoltve")
 
